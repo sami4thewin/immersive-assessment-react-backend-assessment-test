@@ -1,24 +1,10 @@
-# README
+# React Assessment Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Rails backend you should use to supply your React front-end
+application with data.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone down the repo.
+2. Run `rake db:setup ` 
+3. Start the app with `rails s -p 3001`
